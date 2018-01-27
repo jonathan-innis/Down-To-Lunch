@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import HomeScreen from './components/HomeScreen.js';
+import LoginScreen from './components/LoginScreen.js';
 import DetailsScreen from './components/DetailsScreen.js';
 
 import {
@@ -9,7 +9,7 @@ import {
 
 const RootNavigator = StackNavigator({
   Home: {
-    screen: HomeScreen,
+    screen: LoginScreen,
     navigationOptions: {
       headerTitle: 'Home',
     },

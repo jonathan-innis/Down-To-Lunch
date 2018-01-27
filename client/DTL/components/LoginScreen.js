@@ -2,11 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import {FBLogin} from 'react-native-facebook-login';
 
-class HomeScreen extends React.Component {
+class LoginScreen extends React.Component {
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: "#2196F3" }}>
+        <Text style={{color: "#fff", fontSize: 100}}> DTL </Text>
         <Button
           onPress={() => this.props.navigation.navigate('Details')}
           title="Login with Facebook"
@@ -16,4 +16,4 @@ class HomeScreen extends React.Component {
   }
 }
 
-export default HomeScreen;
+export default LoginScreen;
