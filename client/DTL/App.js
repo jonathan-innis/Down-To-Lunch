@@ -1,7 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import LoginScreen from './components/LoginScreen.js';
-import DetailsScreen from './components/DetailsScreen.js';
+import TabNavigation from './components/TabNavigation.js';
+import ProfileDisplay from './components/ProfileDisplay.js';
 
 import {
   StackNavigator,
@@ -9,17 +10,15 @@ import {
 
 const RootNavigator = StackNavigator({
   Home: {
+    header: null,
     screen: LoginScreen,
-    navigationOptions: {
-      headerTitle: 'Home',
-    },
   },
   Details: {
-    screen: DetailsScreen,
-    navigationOptions: {
-      headerTitle: 'Details',
-    },
+    screen: TabNavigation,
   },
+  Profile: {
+    screen: ProfileDisplay
+  }
 });
 
 export default RootNavigator;
