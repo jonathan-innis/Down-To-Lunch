@@ -19,9 +19,49 @@ const list = [
     title: 'Foo Place',
   },
   {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Dixie Chicken',
+    coordinates:{
+      latitude: 30.6116676,
+      longitude: -96.3417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Amy Farha',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: "Lane's Chicken",
+    coordinates:{
+      latitude: 30.65,
+      longitude: -96.4417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Sbisa',
+    coordinates:{
+      latitude: 30.55,
+      longitude: -96.4417157,
+    },
+    title: 'Foo Place',
+  },
+  {
     name: 'Amy Farha',
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
     subtitle: 'Freebirds',
+    coordinates:{
+      latitude: 30.7116676,
+      longitude: -96.4417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Dixie Chicken',
     coordinates:{
       latitude: 30.6116676,
       longitude: -96.3417157,
@@ -33,8 +73,18 @@ const list = [
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
     subtitle: 'Freebirds',
     coordinates:{
-      latitude: 30.7116686,
+      latitude: 30.7116676,
       longitude: -96.4417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Dixie Chicken',
+    coordinates:{
+      latitude: 30.6116676,
+      longitude: -96.3417157,
     },
     title: 'Foo Place',
   },
@@ -43,12 +93,42 @@ const list = [
     avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
     subtitle: 'Freebirds',
     coordinates:{
-      latitude: 30.7116696,
+      latitude: 30.7116676,
       longitude: -96.4417157,
     },
     title: 'Foo Place',
   },
-]
+  {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Dixie Chicken',
+    coordinates:{
+      latitude: 30.6116676,
+      longitude: -96.3417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Amy Farha',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: 'Freebirds',
+    coordinates:{
+      latitude: 30.7116676,
+      longitude: -96.4417157,
+    },
+    title: 'Foo Place',
+  },
+  {
+    name: 'Chris Jackson',
+    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Dixie Chicken',
+    coordinates:{
+      latitude: 30.6116676,
+      longitude: -96.3417157,
+    },
+    title: 'Foo Place',
+  },
+];
 
 class FriendScreen extends React.Component {
   static navigationOptions = {
