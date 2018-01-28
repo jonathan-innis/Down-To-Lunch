@@ -40,7 +40,7 @@ const list = [
   },
   {
     name: 'Chris Jackson',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: 'https://pbs.twimg.com/profile_images/869774004583780352/w4FleH9r_400x400.jpg',
     subtitle: 'Sbisa',
     coordinates:{
       latitude: 30.55,
@@ -50,7 +50,7 @@ const list = [
   },
   {
     name: 'Amy Farha',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    avatar_url: 'https://scontent.cdninstagram.com/t51.2885-15/s480x480/e15/15876663_929626850505285_8325389113649790976_n.jpg?ig_cache_key=MTQyMTM1NzYxNjE5MzUyMjIyOA%3D%3D.2',
     subtitle: 'Freebirds',
     coordinates:{
       latitude: 30.7116676,
