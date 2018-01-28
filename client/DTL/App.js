@@ -3,9 +3,6 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import LoginScreen from './components/LoginScreen.js';
 import TabNavigation from './components/TabNavigation.js';
 import ProfileDisplay from './components/ProfileDisplay.js';
-import { Provider } from 'react-redux';
-import { connect } from 'react-redux';
-import store from './redux/store.js';
 
 import {
   StackNavigator,

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import { Text, View, Modal, StyleSheet } from 'react-native';
+import { Text, View, Modal, StyleSheet, ToastAndroid } from 'react-native';
 import { FormLabel, FormInput, FormValidationMessage, Button } from 'react-native-elements';
 import { GooglePlacesAutocomplete, geocodeByAddress, getLatLng } from 'react-native-google-places-autocomplete';
 import {Constants} from 'expo';
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux';
 
 class ModalComponent extends Component {
   state = {
@@ -14,10 +12,11 @@ class ModalComponent extends Component {
   }
 
   openModal = () => {
-    this.setState({modalVisible:true});
+    this.setState({modalVisible: true});
   }
 
   closeModal = () => {
+    if (this.state.longitude !== null){
     fetch("https://dtl-foufou1560.c9users.io/",{
       method: 'POST', // or 'PUT'
         body: JSON.stringify({
@@ -31,6 +30,8 @@ class ModalComponent extends Component {
           'Content-Type': 'application/json'
         })
       });
+      ToastAndroid.show('Down To Lunch Request Sent', ToastAndroid.LONG);
+    }
       this.setState({modalVisible:false});
   }
 

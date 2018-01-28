@@ -151,7 +151,14 @@ class FriendScreen extends React.Component {
                 key={i}
                 style={{height: 30}}
                 title={l.name}
-                //onPress={() => this.props.navigation.navigate('Profile', {name: l.name})}
+                onPress={() => Alert.alert(
+  'I want to DTL with Amy Ferha',
+  'Attempting to DTL may result in adverse side effects',
+  [
+    {text: 'Call Friend to DTL', onPress: () => console.log('Ask me later pressed')},
+  ],
+  { cancelable: true }
+)}
                 badge={{ value: "12:30 - 1:00pm", textStyle: { color: 'white' }, containerStyle: { marginTop: 0 } }}
               />
             ))
