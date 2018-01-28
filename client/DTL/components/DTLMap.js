@@ -8,7 +8,7 @@ const list = [
   {
     first_name: 'Amy',
     last_name: 'Farha',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    avatar_url: 'https://pbs.twimg.com/profile_images/847868382133329920/zFjQMYX1_400x400.jpg',
     subtitle: 'Freebirds',
     coordinates:{
       latitude: 30.7116676,
@@ -19,7 +19,7 @@ const list = [
   {
     first_name: 'Chris',
     last_name: 'Jackson',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    avatar_url: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAr4AAAAJDU1Y2NhMmQ3LTNhOTctNGRjZS1hNjcyLTMwMjM4ZjkzODJjZA.jpg',
     subtitle: 'Dixie Chicken',
     coordinates:{
       latitude: 30.6116676,
@@ -30,7 +30,7 @@ const list = [
   {
     first_name: 'Amy',
     last_name: 'Farha',
-    avatar_url: 'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    avatar_url: 'http://www.brownfound.org/images/scholars/Jonathan-Innis.jpg',
     subtitle: "Lane's Chicken",
     coordinates:{
       latitude: 30.65,
