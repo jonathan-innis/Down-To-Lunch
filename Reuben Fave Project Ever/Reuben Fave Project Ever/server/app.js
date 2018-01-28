@@ -33,7 +33,7 @@ mongoUtils.initMongoDB(function (err) {
     if (err) throw err;
     console.log('Connected to MongoDB!');
     app.use('/', require('./routes'));
-    app.listen(3000, function () {
+    app.listen(8080, function () {
         console.log('Waiting on port 3000');
     })
 })
